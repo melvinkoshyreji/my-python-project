@@ -1,0 +1,7 @@
+- name: Simple Ansible Task
+  hosts: localhost
+  tasks:
+    - name: Print a message
+      debug:
+        msg: "Hello, Ansible running on Ubuntu!"
+
